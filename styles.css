@@ -1,0 +1,72 @@
+html, body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo-pattern {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description-logo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+    margin-top: 6px;
+}
+
+.description-logo #tilland {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+input {
+    width: 500px;
+    height: 10px;
+    padding: 10px;
+    margin-top: 6px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 0.8125em;
+    margin-top: 60px;
+}
+
+.intro .intro-first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.intro .intro-first p {
+    margin-right: 17px;
+}
+
+.intro .intro-second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.intro .intro-second p {
+    margin-right: 17px;
+}
